@@ -1,2 +1,3 @@
 print("labas")
 print()
+print()
