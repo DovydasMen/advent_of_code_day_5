@@ -1,3 +1,0 @@
-print("labas")
-print()
-print()
