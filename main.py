@@ -37,7 +37,6 @@ def get_locations(seeds: Generator, almanac: List[str]) -> List[int]:
         #Ex solution buvo pacio generatoriuas padavimas į funkciją. Bėda, kad generatorius negrįžo į praždią.
         location = seed
         for ally_map in alignment_map:
-            pprint(ally_map)
             for value in ally_map:
                 destination, source, symbols_range = value
                 if location in range(int(source), int(source) + int(symbols_range)):
